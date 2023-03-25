@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheeUp Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="background">
+    <!-- --------------------------------------------------------------------------------------------------------HEADER-------------- -->
+
+    <header class="header">
+
+        <div class="game_title">CHEER UP MR GRUMPY</div>
+
+        <div class="header_links">
+            <a class="button" id="myBtn" onclick="buttonsound()" href="/docs/about.html">about</a>
+            <a class="button" onclick="buttonsound()" href="https://orteil.dashnet.org/cookieclicker/">inspiration</a>
+            <a class="button" onclick="buttonsound()" href="/docs/developer.html">developer</a>
+        </div>
+
+    </header>
+
+    <!-- --------------------------------------------------------------------------------------------------------BODY-------------- -->
+
+    <div class="main_body">
+
+        <div class="left_column">
+            <div id="AutoCounter">/CLICK</div>
+            <button id="BuyAutoClicker" type="button">Buy Auto Clicker</button>
+            <div>
+                <span class="AutoCounterCost" id="AutoCounter1">Cost:</span>
+            </div>
+        </div>
+
+        <div class="center_column">
+            <img id="cat_image" src="/images/Cat Test.png" alt="cat image" height="612px" width="836px">
+            <div id="Counter">FUN LEVEL: </div>
+        </div>
+
+        <div class="right_column">
+            <div id="Multiplier">X CLICK</div>
+            <button id="multiplierbutton" type="button">Buy Multiplier</button>
+            <div>
+                <span class="AutoCounterCost" id="Cost">Cost:</span>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- --------------------------------------------------------------------------------------------------------FOOTER-------------- -->
+
+    <footer class="footer">
+
+        <button id="button" onclick="resetData(), buttonsound() ">Reset Game</button>
+
+        <script src="donutgame.js"></script>
+
+    </footer>
+
+</body>
+
+</html>

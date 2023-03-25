@@ -1,0 +1,250 @@
+@font-face {
+    font-family: Kid Font;
+    src: url(/Fonts/Kid\ Games.ttf);
+}
+
+@font-face {
+    font-family: Button;
+    src: url(/Fonts/FredokaOne-Regular.ttf);
+}
+
+.background {
+    background-image: url(/images/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: 2100px;
+    height: 1000px;
+    background-attachment: fixed;
+}
+
+/*-------------------------------------------------------------------------------------HEADER-----------------------------------------------------------*/
+.header {
+    display: flex;
+    flex-direction: column;
+    /* background-color: aquamarine; */
+}
+
+.game_title {
+    display: flex;
+    justify-content: center;
+    font-family: Kid Font;
+    color: blueviolet;
+    text-shadow: 0px 8px 0px rgb(36, 17, 11);
+    font-size: 100px;
+    text-shadow: 80px red;
+}
+
+.header_links {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.button {
+    background-color: rgba(248, 97, 52);
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    height: 30px;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-family: Button;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 0px 4px 0px rgb(161, 64, 34);
+    border-radius: 25px;
+    box-shadow: 0px 8px 0px rgb(161, 64, 34);
+    transition: all 0.2 ease;
+}
+
+/*-------------------------------------------------------------------------------------BODY-----------------------------------------------------------*/
+.main_body {
+    display: grid;
+    grid-template-columns: auto 836px auto;
+    /* background-color: coral; */
+    height: 612px;
+}
+
+.left_column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgb(170, 146, 166); */
+    height: 612px;
+}
+
+.center_column {
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(202, 156, 96); */
+    height: 612px;
+}
+
+.right_column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgb(170, 146, 166); */
+    height: 612px;
+}
+
+#multiplierbutton {
+    background-color: rgba(248, 97, 52);
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    height: 80px;
+    width: 300px;
+    font-family: Button;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 0px 4px 0px rgb(161, 64, 34);
+    border-radius: 25px;
+    box-shadow: 0px 8px 0px rgb(161, 64, 34);
+    transition: all 0.2 ease;
+    position: relative;
+    top: 250px;
+}
+
+#multiplierbutton:hover {
+    cursor: pointer;
+}
+
+#BuyAutoClicker {
+    background-color: rgba(248, 97, 52);
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    height: 80px;
+    width: 300px;
+    font-family: Button;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 0px 4px 0px rgb(161, 64, 34);
+    border-radius: 25px;
+    box-shadow: 0px 8px 0px rgb(161, 64, 34);
+    transition: all 0.2 ease;
+    position: relative;
+    top: 250px;
+}
+
+#BuyAutoClicker:hover {
+    cursor: pointer;
+}
+
+#Counter {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -100px;
+    font-size: 40px;
+    color: blueviolet;
+    text-shadow: 0px 4px 0px rgb(36, 17, 11);
+    font-family: Kid Font;
+    /* background-color: blueviolet; */
+}
+
+#AutoCounter {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: blueviolet;
+    text-shadow: 0px 4px 0px rgb(36, 17, 11);
+    font-family: Kid Font;
+    /* background-color: blueviolet; */
+    position: relative;
+    top: 230px;
+}
+
+.AutoCounterCost {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -100px;
+    font-size: 30px;
+    color: blueviolet;
+    text-shadow: 0px 4px 0px rgb(36, 17, 11);
+    font-family: Kid Font;
+    /* background-color: blueviolet; */
+    position: relative;
+    top: 270px;
+}
+
+#Multiplier {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: blueviolet;
+    text-shadow: 0px 4px 0px rgb(36, 17, 11);
+    font-family: Kid Font;
+    /* background-color: blueviolet; */
+    position: relative;
+    top: 230px;
+}
+
+#Cost {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: blueviolet;
+    text-shadow: 0px 4px 0px rgb(36, 17, 11);
+    font-family: Kid Font;
+    /* background-color: blueviolet; */
+    position: relative;
+    top: 270px;
+}
+
+/*-------------------------------------------------------------------------------------FOOTER-----------------------------------------------------------*/
+.footer {
+    display: flex;
+    justify-content: center;
+    /* background-color: aquamarine; */
+    height: 70px;
+}
+
+#button {
+    background-color: rgba(248, 97, 52);
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    width: 200px;
+    font-family: Button;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 0px 4px 0px rgb(161, 64, 34);
+    border-radius: 25px;
+    box-shadow: 0px 8px 0px rgb(161, 64, 34);
+    transition: all 0.2 ease;
+}
+
+#button:hover {
+    cursor: pointer;
+}
+
+/*-------------------------------------------------------------------------------------ABOUT AND DEVELOPER-----------------------------------------------------------*/
+.links_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links_description {
+    font-family: Button;
+    font-size: 30px;
+    color: blueviolet;
+    text-shadow: 0px 2px 0px rgb(36, 17, 11);
+    text-align: center;
+}
+
+.grumpycat_image {
+    border: 10px solid rgba(248, 97, 52);
+    border: 5px solid #555;
+}
+
+.links_title {
+    font-family: Kid Font;
+    color: rgba(248, 97, 52);
+    text-shadow: 0px 4px 0px rgb(163, 73, 46);
+}
